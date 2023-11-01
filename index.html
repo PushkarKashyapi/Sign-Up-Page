@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+<div class=" bg-cover bg-center bg-[url('https://cdn.pixabay.com/photo/2016/05/24/16/48/mountains-1412683_1280.png')] min-h-screen flex flex-col">
+    <div class="  bg-transparent  max-w-sm mx-auto flex-1 flex flex-col items-center justify-center px-2">
+        <div class="bg-transparent px-6 py-8 rounded shadow-md text-black w-full">
+            <h1 class="mb-8 text-3xl text-center text-white font-black "> "Sign Up" </h1>
+            <input 
+                type="text"
+                class="block border border-grey-light w-full p-3 rounded mb-4 font-style:cursive"
+                name="fullname"
+                placeholder="Full Name" />
+
+            <input 
+                type="text"
+                class="block border border-grey-light w-full p-3 rounded mb-4"
+                name="email"
+                placeholder="Email" />
+
+            <input 
+                type="password"
+                class="block border border-grey-light w-full p-3 rounded mb-4"
+                name="password"
+                placeholder="Password" />
+            <input 
+                type="password"
+                class="block border border-grey-light w-full p-3 rounded mb-4"
+                name="confirm_password"
+                placeholder="Confirm Password" />
+
+            <button
+                type="submit"
+                class="w-full text-center py-3 rounded bg-gray text-white bg-violet-500 focus:outline-none my-1 font-bold "
+            > Create Account</button>
+
+            <div class="text-center text-sm text-white mt-4 font-style:cursive font-bold" >
+                By Signing Up, You Agree To The 
+                <a class="no-underline border-b border-white text-white font-bold" href="#">
+                    Terms of Service
+                </a> and 
+                <a class="no-underline border-b border-white text-white font-bold" href="#">
+                    Privacy Policy
+                </a>
+            </div>
+        </div>
+
+        <div class="text-white mt-6 font-bold">
+            Already have an account? 
+            <a class="no-underline border-b border-blue text-blue font-bold" href="../login/">
+                Log in
+            </a>.
+        </div>
+    </div>
+</div>
+    
+</body>
+</html>
